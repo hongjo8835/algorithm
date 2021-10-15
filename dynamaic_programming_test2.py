@@ -9,4 +9,4 @@ d[1] = max(array[0], array[1])
 for i in range(2, n):
     d[i] = max(d[i - 1], d[i - 2] + array[i])    # 기준점을 같게 잡아주면 합하는 수가 큰쪽 값이 선택되는 쪽의 값이 더 크다는 걸 알 수 있음.
 
-print(d[n - 1])
+print(d[n - 1]) 
